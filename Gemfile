@@ -12,10 +12,11 @@ gem 'bitters'
 gem 'bourbon'
 gem 'jquery-rails'
 gem 'neat'
-gem 'refills'
+# gem 'refills', git: 'https://github.com/thoughtbot/refills.git'
 gem 'sass-rails', '~> 5.0'
 gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
+gem 'rails_admin', github:'sferik/rails_admin'
 
 group :development, :test do
   gem 'byebug'
