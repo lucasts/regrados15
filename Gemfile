@@ -4,12 +4,18 @@ ruby "2.1.5"
 
 gem 'rails', '~>4.2'
 
-gem 'jquery-rails'
 gem 'pg'
+gem 'passenger', '~> 5.0.0.beta2'
+
+# assets
+gem 'bitters'
+gem 'bourbon'
+gem 'jquery-rails'
+gem 'neat'
+gem 'refills'
 gem 'sass-rails', '~> 5.0'
 gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
-gem 'passenger'
 
 group :development, :test do
   gem 'byebug'
