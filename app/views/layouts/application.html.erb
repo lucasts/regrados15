@@ -8,7 +8,14 @@
 </head>
 <body>
 
-<%= yield %>
+<div role="main" class="wrapper">
+  <%= render 'shared/header' %>
+
+  <%= yield %>
+
+  <%= render 'shared/footer' %>
+</div>
+
 
 </body>
 </html>
